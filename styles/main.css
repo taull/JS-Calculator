@@ -1,0 +1,142 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #eee 0, #eee 4.97133%, transparent 4.97133%, transparent 8.63897%, #eee 8.63897%, #eee 13.6103%, transparent 13.6103%, transparent 17.27794%, #eee 17.27794%, #eee 22.24927%, transparent 22.24927%, transparent 25.91691%, #eee 25.91691%, #eee 30.88824%, transparent 30.88824%, transparent 34.55588%, #eee 34.55588%, #eee 39.52721%, transparent 39.52721%, transparent 43.19485%, #eee 43.19485%, #eee 48.16618%, transparent 48.16618%, transparent 51.83382%, #eee 51.83382%, #eee 56.80515%, transparent 56.80515%, transparent 60.47279%, #eee 60.47279%, #eee 65.44412%, transparent 65.44412%, transparent 69.11176%, #eee 69.11176%, #eee 74.08309%, transparent 74.08309%, transparent 77.75073%, #eee 77.75073%, #eee 82.72206%, transparent 82.72206%, transparent 86.3897%, #eee 86.3897%, #eee 91.36103%, transparent 91.36103%, transparent 95.02867%, #eee 95.02867%, #eee 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #eee 0, #eee 4.97133%, transparent 4.97133%, transparent 8.63897%, #eee 8.63897%, #eee 13.6103%, transparent 13.6103%, transparent 17.27794%, #eee 17.27794%, #eee 22.24927%, transparent 22.24927%, transparent 25.91691%, #eee 25.91691%, #eee 30.88824%, transparent 30.88824%, transparent 34.55588%, #eee 34.55588%, #eee 39.52721%, transparent 39.52721%, transparent 43.19485%, #eee 43.19485%, #eee 48.16618%, transparent 48.16618%, transparent 51.83382%, #eee 51.83382%, #eee 56.80515%, transparent 56.80515%, transparent 60.47279%, #eee 60.47279%, #eee 65.44412%, transparent 65.44412%, transparent 69.11176%, #eee 69.11176%, #eee 74.08309%, transparent 74.08309%, transparent 77.75073%, #eee 77.75073%, #eee 82.72206%, transparent 82.72206%, transparent 86.3897%, #eee 86.3897%, #eee 91.36103%, transparent 91.36103%, transparent 95.02867%, #eee 95.02867%, #eee 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #eee 0, #eee 4.97133%, transparent 4.97133%, transparent 8.63897%, #eee 8.63897%, #eee 13.6103%, transparent 13.6103%, transparent 17.27794%, #eee 17.27794%, #eee 22.24927%, transparent 22.24927%, transparent 25.91691%, #eee 25.91691%, #eee 30.88824%, transparent 30.88824%, transparent 34.55588%, #eee 34.55588%, #eee 39.52721%, transparent 39.52721%, transparent 43.19485%, #eee 43.19485%, #eee 48.16618%, transparent 48.16618%, transparent 51.83382%, #eee 51.83382%, #eee 56.80515%, transparent 56.80515%, transparent 60.47279%, #eee 60.47279%, #eee 65.44412%, transparent 65.44412%, transparent 69.11176%, #eee 69.11176%, #eee 74.08309%, transparent 74.08309%, transparent 77.75073%, #eee 77.75073%, #eee 82.72206%, transparent 82.72206%, transparent 86.3897%, #eee 86.3897%, #eee 91.36103%, transparent 91.36103%, transparent 95.02867%, #eee 95.02867%, #eee 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #eee 0, #eee 4.97133%, transparent 4.97133%, transparent 8.63897%, #eee 8.63897%, #eee 13.6103%, transparent 13.6103%, transparent 17.27794%, #eee 17.27794%, #eee 22.24927%, transparent 22.24927%, transparent 25.91691%, #eee 25.91691%, #eee 30.88824%, transparent 30.88824%, transparent 34.55588%, #eee 34.55588%, #eee 39.52721%, transparent 39.52721%, transparent 43.19485%, #eee 43.19485%, #eee 48.16618%, transparent 48.16618%, transparent 51.83382%, #eee 51.83382%, #eee 56.80515%, transparent 56.80515%, transparent 60.47279%, #eee 60.47279%, #eee 65.44412%, transparent 65.44412%, transparent 69.11176%, #eee 69.11176%, #eee 74.08309%, transparent 74.08309%, transparent 77.75073%, #eee 77.75073%, #eee 82.72206%, transparent 82.72206%, transparent 86.3897%, #eee 86.3897%, #eee 91.36103%, transparent 91.36103%, transparent 95.02867%, #eee 95.02867%, #eee 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, #eee 0, #eee 4.97133%, transparent 4.97133%, transparent 8.63897%, #eee 8.63897%, #eee 13.6103%, transparent 13.6103%, transparent 17.27794%, #eee 17.27794%, #eee 22.24927%, transparent 22.24927%, transparent 25.91691%, #eee 25.91691%, #eee 30.88824%, transparent 30.88824%, transparent 34.55588%, #eee 34.55588%, #eee 39.52721%, transparent 39.52721%, transparent 43.19485%, #eee 43.19485%, #eee 48.16618%, transparent 48.16618%, transparent 51.83382%, #eee 51.83382%, #eee 56.80515%, transparent 56.80515%, transparent 60.47279%, #eee 60.47279%, #eee 65.44412%, transparent 65.44412%, transparent 69.11176%, #eee 69.11176%, #eee 74.08309%, transparent 74.08309%, transparent 77.75073%, #eee 77.75073%, #eee 82.72206%, transparent 82.72206%, transparent 86.3897%, #eee 86.3897%, #eee 91.36103%, transparent 91.36103%, transparent 95.02867%, #eee 95.02867%, #eee 100.0%, transparent 100.0%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 68em;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: -1; }
+
+/* Fonts */
+/* Layout */
+* {
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #f0f0f0; }
+
+.header {
+  background: #f0f0f0;
+  width: 100%;
+  height: 75px;
+  border-bottom: 1px solid #dfdfdf; }
+
+.header-container {
+  position: relative;
+  width: 960px;
+  height: 75px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px; }
+
+.header-container p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+/* Forms */
+select,
+input,
+textarea,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  border: 0;
+  background-color: #FFF; }
+  select:focus,
+  input:focus,
+  textarea:focus,
+  button:focus {
+    outline: none; }
+
+.wrapper {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #fff; }
+  .wrapper::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.calculator {
+  float: left;
+  display: block;
+  margin-right: 3.66764%;
+  width: 30.88824%;
+  margin-left: 34.55588%;
+  padding: 0px;
+  background: transparent;
+  border: 1px solid #000;
+  font-size: 0; }
+  .calculator:last-child {
+    margin-right: 0; }
+
+/* Calculator Buttons */
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  background-color: #f0f0f0;
+  width: 25%;
+  height: 60px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0;
+  border: 1px solid #000; }
+
+#zero {
+  width: 50%;
+  background: #dfdfdf; }
+
+#divide,
+#multiply,
+#minus,
+#plus,
+#equals {
+  background: #ffe375; }
+
+#display {
+  font-size: 36px;
+  height: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #000;
+  color: #FFF;
+  padding: 5px;
+  text-align: right; }
+
+/*# sourceMappingURL=main.css.map */
